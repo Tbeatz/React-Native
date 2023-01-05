@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "ReactRegisteration",
-    "slug": "ReactRegisteration",
+    "name": "Visitor Registeration",
+    "slug": "DICARegisteration",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "landscape",
+    "icon": "./assets/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon1.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.tbeatz.DICARegisteration"
     },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
+   
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1a1d036-6e3b-4626-90ea-a96860d49686"
+      }
     }
   }
 }
